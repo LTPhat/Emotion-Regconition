@@ -59,7 +59,7 @@ Saved in **emojify.py**
 - Jinja: By Ronacher, is a template engine for the Python programming language. Similar to the Django web framework, it handles templates in a sandbox.
 - Install and update Flask
 ```sh
-$ pip install -U Flask:
+$ pip install -U Flask
 ```
 - Define Flask app:
 ```sh
@@ -75,8 +75,10 @@ if __name__ == '__main__':
 - Prediction site: **html_templates/prediction.html**.
 - Flask app: **app.py**.
 - **Web Surface:**
+
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/web_surface.png)
 - **Some prediction of images uploaded from users:**
+
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/happy_result2.png)
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/happy_result.png)
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/disgust_result.png)
