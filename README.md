@@ -38,6 +38,9 @@ Saving kaggle.json to kaggle.json
 ```sh
 ! kaggle datasets download -d msambare/fer2013
 ```
+- **Samples from dataset**:
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/sample_training1.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/sample_training2.png)
 - All steps of building model are included in **Emojify.ipynb**.
 ## Training 
 Training from local is saved in **train.py**.
@@ -45,5 +48,9 @@ Training from local is saved in **train.py**.
 Saved in **FER_model_weight.h5**
 ## Main 
 Saved in **emojify.py**
-## Result 
-Saved in **capture** folder.
+## Result
+- **Prediction on some images in test set:**
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/predict1.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/predict2.png)
+
+- Results on OpenCV webcam are saved in **capture** folder.
