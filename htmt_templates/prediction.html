@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class='cont'>
+            <h1>Prediction: {{data[0]}}</h1>
+            <h2>Confidence: {{data[1]}} </h2>
+            </div>
+            
+            <img src="{{url_for('load_img')}}" alt='img'>
+            <a href="/" class='btn'>Exit</a>
+
+        </center>
+        
+    </body>
+</html>
