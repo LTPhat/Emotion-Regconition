@@ -48,9 +48,38 @@ Training from local is saved in **train.py**.
 Saved in **FER_model_weight.h5**
 ## Main 
 Saved in **emojify.py**
-## Result
+## Test model
 - **Prediction on some images in test set:**
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/predict1.png)
 ![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/predict2.png)
 
 - Results on OpenCV webcam are saved in **capture** folder.
+## Deploy model on Web using Flask
+- Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+- Jinja: By Ronacher, is a template engine for the Python programming language. Similar to the Django web framework, it handles templates in a sandbox.
+- Install and update Flask
+```sh
+$ pip install -U Flask:
+```
+- Define Flask app:
+```sh
+app = Flask(__name__)
+```
+- Run app:
+```sh
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+- Web style sheet: **static/style.css**.
+- Default main site: **html_templates/index.html**.
+- Prediction site: **html_templates/prediction.html**.
+- Flask app: **app.py**.
+- **Web Surface:**
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/web_surface.png)
+- **Some prediction of images uploaded from users:**
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/happy_result2.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/happy_result.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/disgust_result.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/neutral_result.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/surprise_result.png)
+![alt text](https://github.com/LTPhat/Emotion-Regconition/blob/main/image_web/sad_result.png)
