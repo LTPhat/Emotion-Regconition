@@ -1,6 +1,8 @@
 # Emotion-Regconition
 
-A project applying Keras to build CNN model and OpenCV library to detect emotion through webcam.
+A project applying Keras to build CNN model and OpenCV library to detect emotion through camera and local web.
+
+**Finished day: 15/09/2022.**
 ## About the dataset
 - The data consists of 48x48 pixel grayscale images of faces. 
 
