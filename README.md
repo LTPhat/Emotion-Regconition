@@ -20,8 +20,6 @@ A project applying Keras to build CNN model and OpenCV library to detect emotion
 ```
 - Upload API dataset in json file from local.
 ```sh
-Saving kaggle.json to kaggle.json
-{'kaggle.json': b'{"username":"ltp0203","key":"fffdf39b9c00572aa906e7402280150a"}'}
 
 ```
 - Create kaggle folder
